@@ -1,0 +1,100 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good day", "How are you?"],
+      "responses": [
+        "Hello! Are you preparing for an interview? Let me know how I can help!",
+        "Hey there! Ready to land your dream job? I can assist with questions, answers, and strategies.",
+        "Hi! Let’s get you fully prepared for your next interview. What would you like to focus on?"
+      ]
+    },
+    {
+      "tag": "common_questions",
+      "patterns": [
+        "Common questions",
+        "Tell me interview questions",
+        "What should I prepare for?"
+      ],
+      "responses": [
+        "Here are 10 essential interview questions:\n\n1. Tell me about yourself.\n2. Why do you want this job?\n3. What are your strengths and weaknesses?\n4. Why should we hire you?\n5. Describe a challenge you faced at work.\n6. Where do you see yourself in 5 years?\n7. Tell me about a time you failed and how you handled it.\n8. What are your salary expectations?\n9. Why do you want to leave your current job?\n10. Do you have any questions for us?\n\nWould you like detailed answers?"
+      ]
+    },
+    {
+      "tag": "behavioral_questions",
+      "patterns": ["Behavioral questions", "STAR method", "Tell me behavioral questions"],
+      "responses": [
+        "Behavioral interview questions use the STAR method:\n\n1. Tell me about a time you handled a difficult client.\n2. Describe a situation where you had to meet a tight deadline.\n3. Have you ever had a conflict with a coworker? How did you resolve it?\n4. Give an example of when you led a team successfully.\n5. Tell me about a time you made a mistake and how you fixed it.\n6. Describe a situation where you had to adapt to change.\n7. Give an example of when you showed initiative.\n\nWould you like sample answers?"
+      ]
+    },
+    {
+      "tag": "technical_questions",
+      "patterns": [
+        "Technical questions",
+        "Coding questions",
+        "Software interview questions"
+      ],
+      "responses": [
+        "For technical roles, be ready for coding, system design, and algorithm challenges:\n\n1. Reverse a linked list.\n2. Implement a binary search algorithm.\n3. Explain the difference between TCP and UDP.\n4. What is polymorphism in object-oriented programming?\n5. How does garbage collection work in Java?\n6. How would you design a URL shortener like Bit.ly?\n7. Explain ACID properties in databases.\n\nWant me to generate coding problems?"
+      ]
+    },
+    {
+      "tag": "hr_questions",
+      "patterns": [
+        "HR questions",
+        "Human resources interview",
+        "HR interview questions"
+      ],
+      "responses": [
+        "HR interview questions assess culture fit and communication skills:\n\n1. What motivates you?\n2. How do you handle criticism at work?\n3. Describe your work style.\n4. What would your previous manager say about you?\n5. How do you handle workplace stress?\n6. Do you prefer working independently or in a team?\n7. How do you deal with an uncooperative team member?\n\nWant tips on how to answer these?"
+      ]
+    },
+    {
+      "tag": "salary_negotiation",
+      "patterns": ["Salary question", "How to negotiate salary", "What should I say about salary?"],
+      "responses": [
+        "Here’s how to handle salary questions:\n\n- Deflect initially: 'I'm open to discussing a salary that aligns with my experience and industry standards.'\n- Negotiate smartly: 'Based on market research, I expect a range of $X–$Y for this role.'\n\nWould you like a salary negotiation script?"
+      ]
+    },
+    {
+      "tag": "company_research",
+      "patterns": [
+        "How to research a company?",
+        "What should I know about the company?",
+        "Company background"
+      ],
+      "responses": [
+        "Before your interview, research:\n\n- Company mission, values, and culture\n- Recent news and product launches\n- Their competitors and industry trends\n\nTry checking their website, Glassdoor, and LinkedIn!"
+      ]
+    },
+    {
+      "tag": "leadership_questions",
+      "patterns": ["Leadership questions", "How do I prove leadership?", "Leadership interview"],
+      "responses": [
+        "Leadership questions test your ability to motivate, guide, and make decisions:\n\n1. Describe a time when you led a project.\n2. How do you handle team conflicts?\n3. What’s your leadership style?\n4. Tell me about a time you mentored someone.\n5. How do you motivate a struggling team member?\n\nWould you like leadership interview tips?"
+      ]
+    },
+    {
+      "tag": "follow_up",
+      "patterns": ["Follow-up email", "Should I email after my interview?", "What to say after an interview?"],
+      "responses": [
+        "Send a thank-you email within 24 hours:\n\nSubject: Thank You for the Opportunity\n\nHi [Interviewer’s Name],\n\nThank you for your time today. I enjoyed discussing [specific topic] and learning more about [Company Name]. I'm very excited about this opportunity!\n\nBest,\n[Your Name]\n\nWould you like a personalized email template?"
+      ]
+    },
+    {
+      "tag": "mock_interview",
+      "patterns": ["Mock interview", "Can we simulate an interview?", "I want to practice"],
+      "responses": [
+        "Let’s do a mock interview! I’ll ask a question, and you answer.\n\nQuestion 1: Tell me about yourself.\n\nType your response, and I'll provide feedback!"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["Tell me a job interview joke!", "Got any funny stories?", "Make me laugh"],
+      "responses": [
+        "Why did the candidate bring a ladder to the interview? Because they wanted to step up their career! 😂",
+        "Interviewer: 'Where do you see yourself in 5 years?'\nCandidate: 'Frankly, in your seat!' 😆"
+      ]
+    }
+  ]
+}
